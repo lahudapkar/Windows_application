@@ -58,30 +58,6 @@ No setup or installation needed — it's fully self-contained!
 
 ---
 
-## Project Structure
-
-```
-UserManagementApp/
-├── Program.cs                    ← Entry point
-├── UserManagementApp.csproj      ← Project config + NuGet packages
-├── Models/
-│   └── User.cs                   ← User data model
-├── Data/
-│   └── DatabaseHelper.cs         ← All SQLite DB operations
-├── Helpers/
-│   ├── UIHelper.cs               ← Colors, fonts, shared controls
-│   └── SessionManager.cs         ← Login session state
-└── Forms/
-    ├── LoginForm.cs              ← Sign-in screen
-    ├── RegisterForm.cs           ← Create account screen
-    ├── DashboardForm.cs          ← Main window with sidebar
-    ├── DashboardPage.cs          ← Home/overview panel
-    ├── ProfilePage.cs            ← Edit profile panel
-    └── SecurityPage.cs           ← Change password panel
-```
-
----
-
 ## Screenshots (description)
 - **Login screen**: Split-panel with branded left sidebar + clean white login form
 - **Register screen**: Same split design with full registration form
